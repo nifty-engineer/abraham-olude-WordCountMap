@@ -25,9 +25,9 @@ public class WordCountMapTest {
             int e2 = 1;
             int a3 = actual.get("melon");
             int e3 = 1;
-            Assert.assertEquals(a1,e1);
-            Assert.assertEquals(a2,e2);
-            Assert.assertEquals(a3,e3);
+            Assert.assertEquals(e1, a1);
+            Assert.assertEquals(e2, a2);
+            Assert.assertEquals(e3, a3);
         }
     }
 
@@ -46,8 +46,8 @@ public class WordCountMapTest {
             int expectedGiraffeCount = 2;
             int zebraCount = actual.get("zebra");
             int expectedZebraCount = 1;
-            Assert.assertEquals(giraffeCount, expectedGiraffeCount);
-            Assert.assertEquals(zebraCount, expectedZebraCount);
+            Assert.assertEquals(expectedGiraffeCount, giraffeCount);
+            Assert.assertEquals(expectedZebraCount, zebraCount);
         }
     }
     /**
@@ -66,9 +66,9 @@ public class WordCountMapTest {
             int e2 = 2;
             int a3 = actual.get("melon");
             int e3 = 1;
-            Assert.assertEquals(a1,e1);
-            Assert.assertEquals(a2,e2);
-            Assert.assertEquals(a3,e3);
+            Assert.assertEquals(e1, a1);
+            Assert.assertEquals(e2, a2);
+            Assert.assertEquals(e3, a3);
         }
     }
 
